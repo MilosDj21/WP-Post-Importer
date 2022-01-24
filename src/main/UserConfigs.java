@@ -7,13 +7,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UserConfigs {
-    private String siteName = "";
-    private String siteUrl = "";
-    private String table = "";
-    private String authorId = "";
-    private String dbName = "";
-    private String username = "";
-    private String password = "";
+    private String siteName;
+    private String siteUrl;
+    private String table;
+    private String authorId;
+    private String dbName;
+    private String username;
+    private String password;
 
     public UserConfigs() {
         getConfigs();
